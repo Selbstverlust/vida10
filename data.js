@@ -375,31 +375,36 @@ var APP_DATA = {
           "yaw": -0.6236731440055703,
           "pitch": 0.04503270140616067,
           "title": "Racional",
-          "text": "Text"
+          "text": "Text",
+          "pdfPath": "pdf/Vida10 - Racional.pdf"
         },
         {
           "yaw": -0.32066728041468373,
           "pitch": 0.04297386682413418,
           "title": "Emocional",
-          "text": "Text"
+          "text": "Text",
+          "pdfPath": "pdf/Vida10 - Emocional.pdf"
         },
         {
           "yaw": -0.005377270274848911,
           "pitch": 0.039627272979341654,
           "title": "Físico",
-          "text": "Text"
+          "text": "Text",
+          "pdfPath": "pdf/Vida10 - Físico.pdf"
         },
         {
           "yaw": 0.3100754044634204,
           "pitch": 0.042506396497170584,
           "title": "Nutricional",
-          "text": "Text"
+          "text": "Text",
+          "pdfPath": "pdf/Vida10 - Nutricional.pdf"
         },
         {
           "yaw": 0.6289795944923959,
           "pitch": 0.04591282592515,
           "title": "Espiritual",
-          "text": "Text"
+          "text": "Text",
+          "pdfPath": "pdf/Vida10 - Espiritual.pdf"
         }
       ]
     }
