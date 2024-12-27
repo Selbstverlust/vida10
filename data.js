@@ -141,25 +141,25 @@ var APP_DATA = {
           "yaw": 0.011102436258708437,
           "pitch": -0.11714429471192034,
           "title": "Treino VIDA10<br>",
-          "text": "<div>Text</div>"
+          "text": "<div class='video-links'><a href='https://www.youtube.com/watch?v=wX4o7N5BG6A' target='_blank'>Treino 1</a><br><a href='https://www.youtube.com/watch?v=kpB3iHP6ZgQ' target='_blank'>Treino 2</a><br><a href='https://www.youtube.com/watch?v=X90bY9Lvctk' target='_blank'>Treino 3</a><br><a href='https://www.youtube.com/watch?v=TpXq8h7mRZE' target='_blank'>Treino 4</a><br><a href='https://www.youtube.com/watch?v=T-uTrsz9JVE' target='_blank'>Treino 5</a></div>"
         },
         {
           "yaw": -0.23957276744613054,
           "pitch": 0.15829374726250656,
           "title": "<div>Alongamento</div>",
-          "text": "Text"
+          "text": "<div class='video-links'><a href='https://www.youtube.com/watch?v=jz0-zaNfFv8' target='_blank'>Treino 1</a><br><a href='https://www.youtube.com/watch?v=SCumUKL6d5g' target='_blank'>Treino 2</a><br><a href='https://www.youtube.com/watch?v=xVDcFuQ7UCM' target='_blank'>Treino 3</a></div>"
         },
         {
           "yaw": 0.003455298734589718,
           "pitch": 0.12608248656145093,
           "title": "Aeróbico Intervalado<br>",
-          "text": "<div>Text<br></div>"
+          "text": "<div class='video-links'><a href='https://www.youtube.com/watch?v=ramSzN5Z-XQ' target='_blank'>Treino Aeróbico</a></div>"
         },
         {
           "yaw": 0.24254804077814995,
           "pitch": 0.16850986806171164,
           "title": "Sensório Motor<br>",
-          "text": "Text"
+          "text": "<div class='video-links'><a href='https://www.youtube.com/watch?v=DH5T1010Zkk' target='_blank'>Treino 1</a><br><a href='https://www.youtube.com/watch?v=icygaGQOMO8' target='_blank'>Treino 2</a><br><a href='https://www.youtube.com/watch?v=RJq2iXFojLs' target='_blank'>Treino 3</a></div>"
         }
       ]
     },

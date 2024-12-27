@@ -447,6 +447,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .info-hotspot.visible {
   opacity: 1;
+  z-index: 1;
 }
 
 .info-hotspot .info-hotspot-header {
@@ -600,6 +601,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   top: 40px;
   left: 0;
   padding: 10px;
+  z-index: 2;
   background-color: rgb(58,68,84);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -768,6 +770,29 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   -webkit-user-select: text;
   -ms-user-select: text;
   user-select: text;
+}
+
+.video-links {
+  padding: 10px 0;
+}
+
+.video-links a {
+  display: block;
+  padding: 8px 12px;
+  margin: 5px 0;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.video-links a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.info-hotspot .info-hotspot-text .video-links {
+  margin-top: 5px;
 }
 
 .info-hotspot-modal.visible .info-hotspot-text {
