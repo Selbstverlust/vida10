@@ -792,11 +792,11 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   cursor: text;
 }
 
-.video-links {
+.video-links, .pdf-links {
   padding: 10px 0;
 }
 
-.video-links a {
+.video-links a, .pdf-links a {
   display: block;
   padding: 8px 12px;
   margin: 5px 0;
@@ -807,11 +807,12 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   transition: background-color 0.2s;
 }
 
-.video-links a:hover {
+.video-links a:hover, .pdf-links a:hover {
   background-color: rgba(255,255,255,0.2);
 }
 
-.info-hotspot .info-hotspot-text .video-links {
+.info-hotspot .info-hotspot-text .video-links,
+.info-hotspot .info-hotspot-text .pdf-links {
   margin-top: 5px;
 }
 

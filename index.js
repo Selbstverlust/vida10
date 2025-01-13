@@ -333,29 +333,22 @@
     wrapper.appendChild(header);
     wrapper.appendChild(text);
 
-    // For hotspots in the Remédios Naturais scene, open PDF directly
-    if (hotspot.pdfPath) {
-      wrapper.querySelector('.info-hotspot-header').addEventListener('click', function() {
-        window.open(hotspot.pdfPath, '_blank');
-      });
-    } else {
-      // Create a modal for the hotspot content to appear on mobile mode.
-      var modal = document.createElement('div');
-      modal.innerHTML = wrapper.innerHTML;
-      modal.classList.add('info-hotspot-modal');
-      document.body.appendChild(modal);
+    // Create a modal for the hotspot content
+    var modal = document.createElement('div');
+    modal.innerHTML = wrapper.innerHTML;
+    modal.classList.add('info-hotspot-modal');
+    document.body.appendChild(modal);
 
-      var toggle = function() {
-        wrapper.classList.toggle('visible');
-        modal.classList.toggle('visible');
-      };
+    var toggle = function() {
+      wrapper.classList.toggle('visible');
+      modal.classList.toggle('visible');
+    };
 
-      // Show content when hotspot is clicked.
-      wrapper.querySelector('.info-hotspot-header').addEventListener('click', toggle);
+    // Show content when hotspot is clicked.
+    wrapper.querySelector('.info-hotspot-header').addEventListener('click', toggle);
 
-      // Hide content when close icon is clicked.
-      modal.querySelector('.info-hotspot-close-wrapper').addEventListener('click', toggle);
-    }
+    // Hide content when close icon is clicked.
+    modal.querySelector('.info-hotspot-close-wrapper').addEventListener('click', toggle);
 
     // Prevent touch and scroll events from reaching the parent element.
     // This prevents the view control logic from interfering with the hotspot.

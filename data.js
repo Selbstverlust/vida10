@@ -381,37 +381,32 @@ var APP_DATA = {
         {
           "yaw": -0.6236731440055703,
           "pitch": 0.04503270140616067,
-          "title": "Racional",
-          "text": "Text",
-          "pdfPath": "pdf/Vida10 - Racional.pdf"
+          "title": "Vida10 - Racional",
+          "text": "<div class='pdf-links'><a href='pdf/Vida10 - Racional.pdf' target='_blank'>Abrir PDF - Racional</a><br><a href='https://www.youtube.com/watch?v=gFwVNjRpOzo' target='_blank'>Abrir Vídeo - Racional</a></div>"
         },
         {
           "yaw": -0.32066728041468373,
           "pitch": 0.04297386682413418,
-          "title": "Emocional",
-          "text": "Text",
-          "pdfPath": "pdf/Vida10 - Emocional.pdf"
+          "title": "Vida10 - Emocional",
+          "text": "<div class='pdf-links'><a href='pdf/Vida10 - Emocional.pdf' target='_blank'>Abrir PDF - Emocional</a><br><a href='https://www.youtube.com/watch?v=GqCU1SESOPI' target='_blank'>Abrir Vídeo - Emocional</a></div>"
         },
         {
           "yaw": -0.005377270274848911,
           "pitch": 0.039627272979341654,
-          "title": "Físico",
-          "text": "Text",
-          "pdfPath": "pdf/Vida10 - Físico.pdf"
+          "title": "Vida10 - Físico",
+          "text": "<div class='pdf-links'><a href='pdf/Vida10 - Físico.pdf' target='_blank'>Abrir PDF - Físico</a><br><a href='https://www.youtube.com/watch?v=5FuIYjEe2U0' target='_blank'>Abrir Vídeo - Físico</a></div>"
         },
         {
           "yaw": 0.3100754044634204,
           "pitch": 0.042506396497170584,
-          "title": "Nutricional",
-          "text": "Text",
-          "pdfPath": "pdf/Vida10 - Nutricional.pdf"
+          "title": "Vida10 - Nutricional",
+          "text": "<div class='pdf-links'><a href='pdf/Vida10 - Nutricional.pdf' target='_blank'>Abrir PDF - Nutricional</a><br><a href='https://www.youtube.com/watch?v=gzBUuL3qPMQ' target='_blank'>Abrir Vídeo - Nutricional</a></div>"
         },
         {
           "yaw": 0.6289795944923959,
           "pitch": 0.04591282592515,
-          "title": "Espiritual",
-          "text": "Text",
-          "pdfPath": "pdf/Vida10 - Espiritual.pdf"
+          "title": "Vida10 - Espiritual",
+          "text": "<div class='pdf-links'><a href='pdf/Vida10 - Espiritual.pdf' target='_blank'>Abrir PDF - Espiritual</a><br><a href='https://www.youtube.com/watch?v=0okRx6heJU0' target='_blank'>Abrir Vídeo - Espiritual</a></div>"
         }
       ]
     }
