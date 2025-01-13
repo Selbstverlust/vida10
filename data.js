@@ -332,7 +332,14 @@ var APP_DATA = {
           "target": "1-deck"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0,
+          "pitch": 0,
+          "title": "Zoom",
+          "text": "<div style='padding: 15px;'><p><span>ID da reunião: 831 1204 7825</span></p><p><span>Senha: 188033</span></p><a href='https://us06web.zoom.us/j/83112047825?pwd=z0G2DZ5t8h4JRq0asvLDxgeR7MKq6R.1' target='_blank' class='zoom-link'>Entrar na Reunião</a></div>"
+        }
+      ]
     },
     {
       "id": "6-stand",

@@ -441,6 +441,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
 
 .no-touch .info-hotspot:hover {
   opacity: 1;
+  z-index: 2;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
@@ -454,7 +455,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  background-color: rgb(103,115,131);
+  background-color: orange;
   cursor: pointer;
   -webkit-transition: width 0.3s ease-in-out 0.5s,
                       border-radius 0.3s ease-in-out 0.5s;
@@ -554,7 +555,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 40px;
   width: 40px;
   border-top-right-radius: 5px;
-  background-color: rgb(78,88,104);
+  background-color: rgb(204,132,0);
   visibility: hidden;
   -ms-transform: perspective(200px) rotateY(90deg);
   -webkit-transform: perspective(200px) rotateY(90deg);
@@ -666,6 +667,17 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
                       visibility 0s 0.7s;
   transition: opacity 0.2s ease-in-out 0.5s,
               visibility 0s 0.7s;
+  -moz-user-select: text !important;
+  -webkit-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
+
+.info-hotspot-modal * {
+  -moz-user-select: text !important;
+  -webkit-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
 }
 
 .info-hotspot-modal.visible {
@@ -684,8 +696,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   right: 10px;
   width: auto;
   height: 50px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: orange;
+  background-color: rgba(255,165,0,0.8);
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out 0.2s;
   transition: opacity 0.3s ease-in-out 0.2s;
@@ -741,8 +753,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   right: 0;
   width: 50px;
   height: 50px;
-  background-color: rgb(78,88,104);
-  background-color: rgba(78,88,104,0.8);
+  background-color: rgb(204,132,0);
+  background-color: rgba(204,132,0,0.8);
   cursor: pointer;
 }
 
@@ -772,6 +784,14 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   user-select: text;
 }
 
+.info-hotspot-modal .info-hotspot-text p {
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  cursor: text;
+}
+
 .video-links {
   padding: 10px 0;
 }
@@ -799,6 +819,39 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out 0.4s;
   transition: opacity 0.3s ease-in-out 0.4s;
+}
+
+.zoom-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #2D8CFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.zoom-link:hover {
+  background-color: #2681F2;
+}
+
+.info-hotspot-modal .info-hotspot-text p {
+  -moz-user-select: text !important;
+  -webkit-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+  cursor: text !important;
+  pointer-events: auto !important;
+}
+
+.info-hotspot-modal .info-hotspot-text span {
+  -moz-user-select: text !important;
+  -webkit-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+  cursor: text !important;
+  pointer-events: auto !important;
 }
 
 /* View control buttons */
