@@ -371,6 +371,12 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
+          "yaw": 0,
+          "pitch": -0.25,
+          "title": "Instagram",
+          "text": "<div class='pdf-links'><a href='https://www.instagram.com/clube.vida10' target='_blank'>Seguir no Instagram</a></div>"
+        },
+        {
           "yaw": -0.6236731440055703,
           "pitch": 0.04503270140616067,
           "title": "Vida10 - Racional",
