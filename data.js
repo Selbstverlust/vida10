@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-entrada",
-      "name": "Entrada",
+      "name": "ENTRADA",
       "levels": [
         {
           "tileSize": 256,
@@ -40,7 +40,7 @@ var APP_DATA = {
     },
     {
       "id": "1-deck",
-      "name": "Entrar",
+      "name": "PÁTIO CENTRAL",
       "levels": [
         {
           "tileSize": 256,
@@ -102,7 +102,7 @@ var APP_DATA = {
     },
     {
       "id": "2-academia",
-      "name": "Academia",
+      "name": "ACADEMIA",
       "levels": [
         {
           "tileSize": 256,
@@ -138,25 +138,25 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 0.011102436258708437,
+          "yaw": -0.02455298734589718,
           "pitch": -0.11714429471192034,
           "title": "Treino VIDA10<br>",
           "text": "<div class='video-links'><a href='https://www.youtube.com/watch?v=wX4o7N5BG6A' target='_blank'>Treino 1</a><br><a href='https://www.youtube.com/watch?v=kpB3iHP6ZgQ' target='_blank'>Treino 2</a><br><a href='https://www.youtube.com/watch?v=X90bY9Lvctk' target='_blank'>Treino 3</a><br><a href='https://www.youtube.com/watch?v=TpXq8h7mRZE' target='_blank'>Treino 4</a><br><a href='https://www.youtube.com/watch?v=T-uTrsz9JVE' target='_blank'>Treino 5</a></div>"
         },
         {
-          "yaw": -0.23957276744613054,
+          "yaw": -0.25957276744613054,
           "pitch": 0.15829374726250656,
           "title": "<div>Alongamento</div>",
           "text": "<div class='video-links'><a href='https://www.youtube.com/watch?v=jz0-zaNfFv8' target='_blank'>Treino 1</a><br><a href='https://www.youtube.com/watch?v=SCumUKL6d5g' target='_blank'>Treino 2</a><br><a href='https://www.youtube.com/watch?v=xVDcFuQ7UCM' target='_blank'>Treino 3</a></div>"
         },
         {
-          "yaw": 0.003455298734589718,
+          "yaw": -0.02455298734589718,
           "pitch": 0.12608248656145093,
           "title": "Aeróbico Intervalado<br>",
           "text": "<div class='video-links'><a href='https://www.youtube.com/watch?v=ramSzN5Z-XQ' target='_blank'>Treino Aeróbico</a></div>"
         },
         {
-          "yaw": 0.24254804077814995,
+          "yaw": 0.22254804077814995,
           "pitch": 0.16850986806171164,
           "title": "Sensório Motor<br>",
           "text": "<div class='video-links'><a href='https://www.youtube.com/watch?v=DH5T1010Zkk' target='_blank'>Treino 1</a><br><a href='https://www.youtube.com/watch?v=icygaGQOMO8' target='_blank'>Treino 2</a><br><a href='https://www.youtube.com/watch?v=RJq2iXFojLs' target='_blank'>Treino 3</a></div>"
@@ -165,7 +165,7 @@ var APP_DATA = {
     },
     {
       "id": "3-remdios-naturais",
-      "name": "Remédios Naturais",
+      "name": "8 REMÉDIOS NATURAIS",
       "levels": [
         {
           "tileSize": 256,
@@ -252,7 +252,7 @@ var APP_DATA = {
     },
     {
       "id": "4-produtos-naturais",
-      "name": "Produtos Naturais",
+      "name": "SEMENTES DA VIDA",
       "levels": [
         {
           "tileSize": 256,
@@ -286,11 +286,18 @@ var APP_DATA = {
           "target": "1-deck"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0,
+          "pitch": -0.25,
+          "title": "Instagram",
+          "text": "<div class='pdf-links'><a href='https://www.instagram.com/sementesdavida7' target='_blank'>Seguir no Instagram</a></div>"
+        }
+      ]
     },
     {
       "id": "5-auditrio",
-      "name": "Auditório",
+      "name": "AUDITÓRIO",
       "levels": [
         {
           "tileSize": 256,
@@ -335,7 +342,7 @@ var APP_DATA = {
     },
     {
       "id": "6-stand",
-      "name": "Vida10",
+      "name": "VIDA10",
       "levels": [
         {
           "tileSize": 256,
@@ -371,10 +378,16 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 0,
+          "yaw": 0.15,
           "pitch": -0.25,
           "title": "Instagram",
           "text": "<div class='pdf-links'><a href='https://www.instagram.com/clube.vida10' target='_blank'>Seguir no Instagram</a></div>"
+        },
+        {
+          "yaw": -0.15,
+          "pitch": -0.25,
+          "title": "Apresentação",
+          "text": "<div class='pdf-links'><a href='https://www.youtube.com/watch?v=9llwlGcuZA8' target='_blank'>Vídeo Apresentação</a></div>"
         },
         {
           "yaw": -0.6236731440055703,
